@@ -1,0 +1,410 @@
+[
+  {
+    "firstName": "Bugs",
+    "lastName": "Bunny",
+    "specialty": "Carrotology",
+    "age": 38,
+    "location": "Looneyville",
+    "title": "Chief Carrotologist"
+  },
+  {
+    "firstName": "Daffy",
+    "lastName": "Duck",
+    "specialty": "Quackology",
+    "age": 37,
+    "location": "Duckburg",
+    "title": "Head Quackologist"
+  },
+  {
+    "firstName": "Tweety",
+    "lastName": "Bird",
+    "specialty": "Tweetology",
+    "age": 39,
+    "location": "Aviary City",
+    "title": "Chief Tweetologist"
+  },
+  {
+    "firstName": "Sylvester",
+    "lastName": "Cat",
+    "specialty": "Feline Medicine",
+    "age": 44,
+    "location": "Whiskerville",
+    "title": "Chief Felineologist"
+  },
+  {
+    "firstName": "Elmer",
+    "lastName": "Fudd",
+    "specialty": "Wabbitology",
+    "age": 41,
+    "location": "Hunters Haven",
+    "title": "Chief Wabbitologist"
+  },
+  {
+    "firstName": "Porky",
+    "lastName": "Pig",
+    "specialty": "Piggy Pediatrics",
+    "age": 36,
+    "location": "Snortington",
+    "title": "Head Pediatrician"
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "Cat",
+    "specialty": "Chasingology",
+    "age": 43,
+    "location": "Mouseville",
+    "title": "Chief Chaser"
+  },
+  {
+    "firstName": "Jerry",
+    "lastName": "Mouse",
+    "specialty": "Cheeseology",
+    "age": 35,
+    "location": "Cheesetown",
+    "title": "Cheeseologist"
+  },
+  {
+    "firstName": "Wile E.",
+    "lastName": "Coyote",
+    "specialty": "Acme Medicine",
+    "age": 48,
+    "location": "Desert Falls",
+    "title": "Chief Acmeologist"
+  },
+  {
+    "firstName": "Taz",
+    "lastName": "Devil",
+    "specialty": "Tornado Therapy",
+    "age": 39,
+    "location": "Tazmania",
+    "title": "Head Tornado Therapist"
+  },
+  {
+    "firstName": "SpongeBob",
+    "lastName": "SquarePants",
+    "specialty": "Underwater Medicine",
+    "age": 32,
+    "location": "Bikini Bottom",
+    "title": "Sea Doctor"
+  },
+  {
+    "firstName": "Patrick",
+    "lastName": "Star",
+    "specialty": "Rockology",
+    "age": 34,
+    "location": "Bikini Bottom",
+    "title": "Head Rockologist"
+  },
+  {
+    "firstName": "Sandy",
+    "lastName": "Cheeks",
+    "specialty": "Treedom Medicine",
+    "age": 36,
+    "location": "Bikini Bottom",
+    "title": "Tree Medic"
+  },
+  {
+    "firstName": "Squidward",
+    "lastName": "Tentacles",
+    "specialty": "Clarinet Surgery",
+    "age": 38,
+    "location": "Bikini Bottom",
+    "title": "Chief Clarinet Surgeon"
+  },
+  {
+    "firstName": "Tommy",
+    "lastName": "Pickles",
+    "specialty": "Childhood Care",
+    "age": 30,
+    "location": "Rugratville",
+    "title": "Chief Rugrat Caretaker"
+  },
+  {
+    "firstName": "Angelica",
+    "lastName": "Pickles",
+    "specialty": "Psychiatry for Precocious Kids",
+    "age": 33,
+    "location": "Rugratville",
+    "title": "Child Psychologist"
+  },
+  {
+    "firstName": "Chuckie",
+    "lastName": "Finster",
+    "specialty": "Adolescent Anxiety",
+    "age": 32,
+    "location": "Rugratville",
+    "title": "Teen Therapist"
+  },
+  {
+    "firstName": "Reptar",
+    "lastName": "Saurus",
+    "specialty": "Dinosaur Pediatrics",
+    "age": 40,
+    "location": "Dinosaur Valley",
+    "title": "Chief Dinosaur Pediatrician"
+  },
+  {
+    "firstName": "Stimpy",
+    "lastName": "Cat",
+    "specialty": "Kitty Psychiatry",
+    "age": 37,
+    "location": "Toonville",
+    "title": "Chief Kitty Psychiatrist"
+  },
+  {
+    "firstName": "Ren",
+    "lastName": "Hoek",
+    "specialty": "Chihuahua Chiropractics",
+    "age": 39,
+    "location": "Toonville",
+    "title": "Chihuahua Chiropractor"
+  },
+  {
+    "firstName": "Rocko",
+    "lastName": "Wallaby",
+    "specialty": "Australian Ailments",
+    "age": 36,
+    "location": "O-Town",
+    "title": "Outback Specialist"
+  },
+  {
+    "firstName": "Heffer",
+    "lastName": "Wolfe",
+    "specialty": "Foodie Medicine",
+    "age": 38,
+    "location": "O-Town",
+    "title": "Chief Foodie Physician"
+  },
+  {
+    "firstName": "Filburt",
+    "lastName": "Turtle",
+    "specialty": "Shell Shock Therapy",
+    "age": 40,
+    "location": "O-Town",
+    "title": "Shell Shock Therapist"
+  },
+  {
+    "firstName": "Raphael",
+    "lastName": "Turtle",
+    "specialty": "Ninja Medicine",
+    "age": 35,
+    "location": "Sewer City",
+    "title": "Chief Ninja Physician"
+  },
+  {
+    "firstName": "Donatello",
+    "lastName": "Turtle",
+    "specialty": "Technotronics",
+    "age": 37,
+    "location": "Sewer City",
+    "title": "Technotronics Specialist"
+  },
+  {
+    "firstName": "Michelangelo",
+    "lastName": "Turtle",
+    "specialty": "Party Medicine",
+    "age": 34,
+    "location": "Sewer City",
+    "title": "Party Physician"
+  },
+  {
+    "firstName": "Snoopy",
+    "lastName": "Beagle",
+    "specialty": "Doghouse Psychiatry",
+    "age": 42,
+    "location": "Peanutsburg",
+    "title": "Chief Doghouse Psychiatrist"
+  },
+  {
+    "firstName": "Charlie",
+    "lastName": "Brown",
+    "specialty": "Kite Therapy",
+    "age": 39,
+    "location": "Peanutsburg",
+    "title": "Kite Therapist"
+  },
+  {
+    "firstName": "Linus",
+    "lastName": "Van Pelt",
+    "specialty": "Security Blanket Neurology",
+    "age": 38,
+    "location": "Peanutsburg",
+    "title": "Chief Blanket Neurologist"
+  },
+  {
+    "firstName": "Lucy",
+    "lastName": "Van Pelt",
+    "specialty": "Psychiatry for Football Enthusiasts",
+    "age": 36,
+    "location": "Peanutsburg",
+    "title": "Football Psychiatrist"
+  },
+  {
+    "firstName": "Schroeder",
+    "lastName": "Piano",
+    "specialty": "Musical Medicine",
+    "age": 40,
+    "location": "Peanutsburg",
+    "title": "Chief Musician Physician"
+  },
+  {
+    "firstName": "Woodstock",
+    "lastName": "Bird",
+    "specialty": "Avian Pediatrics",
+    "age": 33,
+    "location": "Peanutsburg",
+    "title": "Chief Avian Pediatrician"
+  },
+  {
+    "firstName": "Garfield",
+    "lastName": "Cat",
+    "specialty": "Lasagna Therapy",
+    "age": 38,
+    "location": "Muncie",
+    "title": "Lasagna Therapist"
+  },
+  {
+    "firstName": "Odie",
+    "lastName": "Dog",
+    "specialty": "Drool Reduction",
+    "age": 35,
+    "location": "Muncie",
+    "title": "Chief Drool Reduction Specialist"
+  },
+  {
+    "firstName": "Jon",
+    "lastName": "Arbuckle",
+    "specialty": "Comic Strip Medicine",
+    "age": 42,
+    "location": "Muncie",
+    "title": "Chief Comic Strip Physician"
+  },
+  {
+    "firstName": "Popeye",
+    "lastName": "Sailor",
+    "specialty": "Spinach Nutrition",
+    "age": 43,
+    "location": "Sweethaven",
+    "title": "Chief Spinach Nutritionist"
+  },
+  {
+    "firstName": "Olive",
+    "lastName": "Oyl",
+    "specialty": "Beauty Medicine",
+    "age": 36,
+    "location": "Sweethaven",
+    "title": "Chief Beauty Physician"
+  },
+  {
+    "firstName": "Bluto",
+    "lastName": "Brutus",
+    "specialty": "Strength Therapy",
+    "age": 40,
+    "location": "Sweethaven",
+    "title": "Strength Therapist"
+  },
+  {
+    "firstName": "Pikachu",
+    "lastName": "Mouse",
+    "specialty": "Electric Medicine",
+    "age": 32,
+    "location": "Pallet Town",
+    "title": "Chief Electrician Physician"
+  },
+  {
+    "firstName": "Charmander",
+    "lastName": "Lizard",
+    "specialty": "Fire Healing",
+    "age": 34,
+    "location": "Pallet Town",
+    "title": "Chief Fire Healer"
+  },
+  {
+    "firstName": "Squirtle",
+    "lastName": "Turtle",
+    "specialty": "Water Therapy",
+    "age": 36,
+    "location": "Pallet Town",
+    "title": "Chief Aquatic Therapist"
+  },
+  {
+    "firstName": "Ash",
+    "lastName": "Ketchum",
+    "specialty": "Pokemon Psychiatry",
+    "age": 30,
+    "location": "Pallet Town",
+    "title": "Pokemon Psychiatrist"
+  },
+  {
+    "firstName": "Misty",
+    "lastName": "Waterflower",
+    "specialty": "Aquatic Pediatrics",
+    "age": 32,
+    "location": "Cerulean City",
+    "title": "Chief Aquatic Pediatrician"
+  },
+  {
+    "firstName": "Brock",
+    "lastName": "Rock",
+    "specialty": "Rock Medicine",
+    "age": 35,
+    "location": "Pewter City",
+    "title": "Chief Rock Physician"
+  },
+  {
+    "firstName": "Jessie",
+    "lastName": "Rocket",
+    "specialty": "Team Rocket Rehabilitation",
+    "age": 33,
+    "location": "Viridian City",
+    "title": "Rehabilitation Specialist"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Rocket",
+    "specialty": "Team Rocket Rehabilitation",
+    "age": 34,
+    "location": "Viridian City",
+    "title": "Rehabilitation Specialist"
+  },
+  {
+    "firstName": "Meowth",
+    "lastName": "Team Rocket",
+    "specialty": "Criminal Psychology",
+    "age": 37,
+    "location": "Viridian City",
+    "title": "Chief Criminal Psychologist"
+  },
+  {
+    "firstName": "Sonic",
+    "lastName": "Hedgehog",
+    "specialty": "Speed Healing",
+    "age": 28,
+    "location": "Green Hill Zone",
+    "title": "Chief Speed Healer"
+  },
+  {
+    "firstName": "Tails",
+    "lastName": "Fox",
+    "specialty": "Aviation Medicine",
+    "age": 27,
+    "location": "Emerald City",
+    "title": "Chief Aviator Physician"
+  },
+  {
+    "firstName": "Knuckles",
+    "lastName": "Echidna",
+    "specialty": "Knuckle Therapy",
+    "age": 30,
+    "location": "Angel Island",
+    "title": "Knuckle Therapist"
+  },
+  {
+    "firstName": "Amy",
+    "lastName": "Rose",
+    "specialty": "Hammer Healing",
+    "age": 29,
+    "location": "Station Square",
+    "title": "Chief Hammer Healer"
+  }
+]
