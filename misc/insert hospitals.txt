@@ -1,0 +1,72 @@
+db.hospitals.insertMany([
+  {
+    "name": "Location A",
+    "location": {
+      "type": "Point",
+      "coordinates": [ -73.985664, 40.748817 ]
+    }
+  },
+  {
+    "name": "Location B",
+    "location": {
+      "type": "Point",
+      "coordinates": [ -74.006, 40.7128 ]
+    }
+  },
+  {
+    "name": "Location C",
+    "location": {
+      "type": "Point",
+      "coordinates": [ -118.2437, 34.0522 ]
+    }
+  },
+  {
+    "name": "Location D",
+    "location": {
+      "type": "Point",
+      "coordinates": [ 139.6917, 35.6895 ]
+    }
+  },
+  {
+    "name": "Location E",
+    "location": {
+      "type": "Point",
+      "coordinates": [ -0.128, 51.5074 ]
+    }
+  },
+  {
+    "name": "Location F",
+    "location": {
+      "type": "Point",
+      "coordinates": [ -77.0369, 38.9072 ]
+    }
+  },
+  {
+    "name": "Location G",
+    "location": {
+      "type": "Point",
+      "coordinates": [ -80.1917902, 25.7616798 ]
+    }
+  },
+  {
+    "name": "Location H",
+    "location": {
+      "type": "Point",
+      "coordinates": [ 151.2093, -33.8688 ]
+    }
+  },
+  {
+    "name": "Location I",
+    "location": {
+      "type": "Point",
+      "coordinates": [ 2.3522, 48.8566 ]
+    }
+  },
+  {
+    "name": "Location J",
+    "location": {
+      "type": "Point",
+      "coordinates": [ 103.8535, 1.3521 ]
+    }
+  }
+])
