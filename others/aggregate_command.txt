@@ -1,0 +1,27 @@
+db.jobs.aggregate([
+        {
+          $match: {
+            $and: [
+               {
+                $or: [
+                  {
+                    commute_type: {
+                      $regex: `.*remote.*`,
+                      $options: 'i',
+                    },
+                  },
+                  {
+                    job_location: {
+                      $regex: `.*remote.*`,
+                      $options: 'i',
+                    },
+                  },
+                ],
+              },
+            ]
+          },
+        },
+        { $sort: { date_created: -1 } },
+        { $skip: (3375 - 1) * 12 },
+        { $limit: 12 },
+      ])
