@@ -1,0 +1,47 @@
+Inner
+
+SELECT 
+  ja.id, ja.email, ja.applied_on,
+  j.id as job_id, j.job_title, j.job_category
+FROM job_applications ja
+INNER JOIN jobs j ON ja.job_id = j.id;
+
+
+Left Outer
+
+SELECT j.id, j.job_title, ja.id AS application_id, ja.email
+FROM jobs j
+LEFT JOIN job_applications ja ON j.id = ja.job_id;
+
+Right Outer
+SELECT j.id AS job_id, j.job_title, l.id AS location_id, l.location_name
+FROM jobs j
+RIGHT OUTER JOIN locations l ON j.job_location = l.id;
+
+
+
+Full Outer
+SELECT j.id AS job_id, j.job_title, ja.id AS application_id, ja.email
+FROM jobs j
+FULL OUTER JOIN job_applications ja ON j.id = ja.job_id;
+
+
+Self Join
+SELECT 
+    A.id AS Job_ID_1, 
+    A.job_title AS Job_Title_1, 
+    B.id AS Job_ID_2, 
+    B.job_title AS Job_Title_2
+FROM 
+    jobs A, jobs B
+WHERE 
+    A.job_title = B.job_title
+    AND A.id != B.id
+LIMIT 100;
+
+Cross join
+SELECT j.job_title, l.location_name
+FROM jobs j
+CROSS JOIN locations l
+LIMIT 100;
+
