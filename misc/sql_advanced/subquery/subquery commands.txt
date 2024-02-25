@@ -1,0 +1,62 @@
+-- Single-row subquery
+
+SELECT j.job_title, COUNT(ja.id) AS job_applications
+FROM jobs j
+JOIN job_applications ja ON j.id = ja.job_id
+WHERE j.job_location = (
+    SELECT l.id
+    FROM locations l
+    WHERE l.location_name = 'Toronto, Canada'
+)
+GROUP BY j.job_title;
+
+
+-- Multiple-row subquery
+
+SELECT job_title, job_location, COUNT(ja.id) AS job_applications
+FROM jobs j
+JOIN job_applications ja ON j.id = ja.job_id
+WHERE job_location IN 
+  (SELECT job_location 
+   FROM job_applications ja 
+   JOIN jobs j ON ja.job_id = j.id)
+GROUP BY j.job_title, j.job_location;
+
+
+-- Correlated subquery
+
+SELECT j.job_title, j.id as job_id, j.job_location, l.id as location_id
+FROM jobs j
+JOIN locations l ON j.job_location = l.id
+WHERE (SELECT COUNT(*)
+       FROM job_applications ja
+       WHERE ja.job_id = j.id) > 
+      (SELECT AVG(ApplicationCount) 
+       FROM (SELECT COUNT(*) AS ApplicationCount -- Table A
+             FROM job_applications ja_2
+             JOIN jobs j_2 ON ja_2.job_id = j_2.id
+             WHERE j_2.job_location = l.id
+             GROUP BY j_2.id) AS SubQuery);
+
+---- Get applications count for job 1
+SELECT COUNT(*)
+       FROM job_applications ja
+       WHERE ja.job_id = 1
+
+---- Get average in location 5
+SELECT AVG(ApplicationCount) AS average FROM
+  (SELECT COUNT(*) AS ApplicationCount -- Table A
+             FROM job_applications ja_2
+             JOIN jobs j_2 ON ja_2.job_id = j_2.id
+             WHERE j_2.job_location = 5
+             GROUP BY j_2.id);
+
+-- Scalar Subquery
+
+SELECT j.job_title,
+       (SELECT email
+        FROM job_applications ja
+        WHERE ja.job_id = j.id
+        ORDER BY applied_on DESC
+        LIMIT 1) AS last_application_by
+FROM jobs j;
